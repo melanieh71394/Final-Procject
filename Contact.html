@@ -7,9 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS Folder/Final Website.css">
     <script src="https://kit.fontawesome.com/7094a000e4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <nav class="navbar">
+        <img class="logo" src="images/00356 Shark.svg" alt="Black shark logo">
         <h1>Great White Sharks</h1>
         <ul>
             <a href="index.html"><li class="navbut">Home</li></a>
@@ -18,7 +22,18 @@
         </ul>
     </nav>
     <main>
-
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <label for="pnumber">Phone Number:</label><br>
+            <input type="text" id="pnumber" name="pnumber" value="(###) ###-####"><br>
+            <label for="email">email:</label><br>
+            <input type="text" id="email" name="email" value="example@email.com"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.608962956441!2d-119.78801758492406!3d36.73195157923858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise%20South%20Stadium!5e0!3m2!1sen!2sus!4v1627866760230!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </main>
     <footer>
         <a href="https://en.wikipedia.org/wiki/Great_white_shark" target="_blank"><i class="fab fa-wikipedia-w"></i></a>
@@ -26,11 +41,5 @@
         <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
     </footer>
     </body>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    
     </html>
